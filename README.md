@@ -9,5 +9,5 @@
 ##  Authors: 
 | Collaborators | Git Username | Contributions |
 | :--- | :--- | :--- |
-| Austin Mans | amans-nagios | Copy-Code |
-| Taylor Steele | steelet8833 |  |
+| **Austin Mans** | amans-nagios | Copy-Code |
+| **Taylor Steele** | steelet8833 | n/a |
