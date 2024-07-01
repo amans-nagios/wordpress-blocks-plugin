@@ -2,7 +2,7 @@
 
 ## Blocks:
 | Block | Description |
-| ---: | ---: | 
+| :--- | :--- | 
 | **Code-Copy** | Copy/paste code block |
 | **More-to-come** | descriptions of blocks |
 
