@@ -1,4 +1,4 @@
-### Hand-made Wordpress plugin for custom-made Wordpress Gutenberg blocks. Built for Nagios Enterprises and its associated wordpress instances.
+### A Wordpress plugin for custom-made Wordpress Gutenberg blocks. Built for Nagios Enterprises and its associated wordpress instances.
 
 ## Blocks:
 | Block | Description |
