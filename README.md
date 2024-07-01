@@ -2,7 +2,9 @@
 
 # Blocks:
 Code-Copy | Copy/paste code block
-
+---
 #  Authors: 
-Austin Mans | amans-nagios
-Taylor Steele | steelet8833
+| User | Username |
+| :--- | :-- |
+| Austin Mans | amans-nagios |
+| Taylor Steele | steelet8833 |
