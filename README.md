@@ -4,7 +4,7 @@
 Code-Copy | Copy/paste code block
 ---
 #  Authors: 
-| Author | Username | Contributions |
+| Author | Git Username | Contributions |
 | :--- | :-- | --: |
 | Austin Mans | amans-nagios | Copy-Code |
 | Taylor Steele | steelet8833 |  |
