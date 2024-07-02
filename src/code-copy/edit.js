@@ -33,8 +33,8 @@ export default function Edit() {
 	return (
 		<p { ...useBlockProps() }>
 			{ __(
-				'My Custom Block – hello from the editor!',
-				'my-custom-block'
+				'My Custom Code Copy Block – hello from the editor!',
+				'code-copy'
 			) }
 		</p>
 	);

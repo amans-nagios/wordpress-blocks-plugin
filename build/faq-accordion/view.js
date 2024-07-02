@@ -1,1 +1,1 @@
-console.log("Hello World! (from create-block-my-custom-block block)");
+console.log("Hello World! (from create-block-faq-accordion block)");

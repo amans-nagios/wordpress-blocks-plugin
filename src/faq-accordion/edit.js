@@ -33,8 +33,8 @@ export default function Edit() {
 	return (
 		<p { ...useBlockProps() }>
 			{ __(
-				'My Custom Block – hello from the editor!',
-				'my-custom-block'
+				'My Custom FAQ Accordion Block – hello from the editor!',
+				'faq-accordion'
 			) }
 		</p>
 	);
