@@ -25,6 +25,7 @@ node_modules/
 
 # Output of `wp-scripts plugin-zip`
 *.zip
+!my-custom-block-plugin.zip
 
 # dotenv environment variables file
 .env
