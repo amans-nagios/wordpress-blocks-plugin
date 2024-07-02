@@ -1,40 +1,51 @@
-/**
- * Registers a new block provided a unique name and an object defining its behavior.
- *
- * @see https://developer.wordpress.org/block-editor/reference-guides/block-api/block-registration/
- */
 import { registerBlockType } from '@wordpress/blocks';
+import { useBlockProps, RichText } from '@wordpress/block-editor';
+import { Button } from '@wordpress/components';
+import { useState } from '@wordpress/element';
 
-/**
- * Lets webpack process CSS, SASS or SCSS files referenced in JavaScript files.
- * All files containing `style` keyword are bundled together. The code used
- * gets applied both to the front of your site and to the editor.
- *
- * @see https://www.npmjs.com/package/@wordpress/scripts#using-css
- */
-import './style.scss';
+registerBlockType('my-custom-block-plugin/code-block', {
+  title: 'Code Block with Copy Button',
+  icon: 'editor-code',
+  category: 'common',
+  attributes: {
+    content: {
+      type: 'string',
+      source: 'html',
+      selector: 'pre',
+    },
+  },
+  edit({ attributes, setAttributes }) {
+    const blockProps = useBlockProps();
+    const { content } = attributes;
+    const onChangeContent = (newContent) => {
+      setAttributes({ content: newContent });
+    };
 
-/**
- * Internal dependencies
- */
-import Edit from './code-copy/edit';
-import save from './code-copy/save';
-import metadata from './block.json';
-//***** import faq-accordion from "faq-accordion";
+    return (
+      <div {...blockProps}>
+        <RichText
+          tagName="pre"
+          value={content}
+          onChange={onChangeContent}
+          placeholder="Enter code here..."
+        />
+        <Button variant='secondary' onClick={() => navigator.clipboard.writeText(content)}>
+          Copy Code
+        </Button>
+      </div>
+    );
+  },
+  save({ attributes }) {
+    const blockProps = useBlockProps.save();
+    const { content } = attributes;
 
-/**
- * Every block starts by registering a new block type definition.
- *
- * @see https://developer.wordpress.org/block-editor/reference-guides/block-api/block-registration/
- */
-registerBlockType( metadata.name, {
-	/**
-	 * @see ./edit.js
-	 */
-	edit: Edit,
-
-	/**
-	 * @see ./save.js
-	 */
-	save,
-} );
+    return (
+      <div {...blockProps}>
+        <RichText.Content tagName="pre" value={content} />
+        <Button variant='secondary' onClick={() => navigator.clipboard.writeText(content)}>
+          Copy Code
+        </Button>
+      </div>
+    );
+  },
+});
