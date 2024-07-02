@@ -20,7 +20,6 @@ import './style.scss';
 import Edit from './code-copy/edit';
 import save from './code-copy/save';
 import metadata from './block.json';
-//***** import code-copy from "code-copy";
 //***** import faq-accordion from "faq-accordion";
 
 /**
