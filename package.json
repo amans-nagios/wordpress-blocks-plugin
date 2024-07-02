@@ -1,7 +1,7 @@
 {
-	"name": "wordpress-blocks-plugin",
+	"name": "code-copy",
 	"version": "0.1.0",
-	"description": "Example block scaffolded with Create Block tool.",
+	"description": "Example copyable code block scaffolded with Create Block tool.",
 	"author": "Austin Mans",
 	"license": "GPL-2.0-or-later",
 	"main": "build/index.js",
