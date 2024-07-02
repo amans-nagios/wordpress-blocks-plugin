@@ -39,13 +39,17 @@
 ---
 
 
-## Blocks:
+**Blocks:**
 | Block | Description |
 | :--- | :--- | 
 | **Code-Copy** | Code block with built-in copy button |
 | **More-To-Come** | descriptions of blocks |
 
-##  Authors: 
+
+---
+
+
+**Authors:** 
 | Collaborators | Git Username | Contributions |
 | :--- | :--- | :--- |
 | **Austin Mans** | amans-nagios | Code-Copy |
