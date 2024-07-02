@@ -1,4 +1,5 @@
-### A Wordpress plugin for custom-made Wordpress Gutenberg blocks. Built for Nagios Enterprises and its associated wordpress instances.
+# A Wordpress plugin for custom-made Wordpress Gutenberg blocks. 
+### Built for Nagios Enterprises and its associated wordpress instances.
 
 
 ---
@@ -12,10 +13,10 @@
 
 ## Save content, build, and zip up files
 - [CRTL + S] on each updated file
-- Open the terminal (bash) and navigate (`cd`) to the correct directory (`~/wordpress-blocks-plugin`, or something to that extent)
+- Open the terminal (bash) and navigate (`cd`) to the correct directory (`~/wordpress-blocks-plugin`, or something of that nature)
 - `npm i` to install dependencies as needed
 - `npm run build` to update /build files to match /src files
-- Zip files (`7z a -xr@.zipignore name-of-block.zip .` if using 7zip, if using a different compression tool, replace `7z` with the proper verb)
+- Zip files `7z a -xr@.zipignore name-of-block.zip .` (if using a compression tool other than 7-Zip, replace `7z` with the proper verb)
 
 ## Push new content to the GitHub repository
 - For now, create a new branch for each individual plugin. In the future, there will be a single plugin with all of the custom blocks
