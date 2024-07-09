@@ -43,7 +43,9 @@
 **Blocks:**
 | Block | Description |
 | :--- | :--- | 
-| **Code-Copy** | Code block with built-in copy button |
+| **copyright-date-block** | sample dynamic or static block of copyright year  |
+| **custom-block-2** | descriptions of block |
+| **custom-block-3** | descriptions of block |
 | **More-To-Come** | descriptions of blocks |
 
 
@@ -53,5 +55,5 @@
 **Authors:** 
 | Collaborators | Git Username | Contributions |
 | :--- | :--- | :--- |
-| **Austin Mans** | amans-nagios | Code-Copy |
-| **Taylor Steele** | steelet8833 | n/a |
+| **Austin Mans** | amans-nagios | Copyright-date-block, custom-block-2 |
+| **Taylor Steele** | steelet8833 | custom-block-3 |
