@@ -18,6 +18,7 @@
 - `npm i` to install dependencies as needed
 - `npm run build` to update /build files to match /src files
 - Zip files `7z a -xr@.zipignore name-of-block.zip .` (if using a compression tool other than 7-Zip, replace `7z` with the proper verb)
+- You can also open the file explorer and manually click files to compress. Navigate to the project in the file explorer, right click, and choose your compression tool to use for zipping.
 
 **Push new content to the GitHub repository**
 - [Custom Block Repo](https://github.com/amans-nagios/wordpress-blocks-plugin/)
