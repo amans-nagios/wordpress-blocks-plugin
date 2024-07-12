@@ -25,8 +25,8 @@ node_modules/
 
 # Output of `wp-scripts plugin-zip`
 *.zip
-!copyright-date-block.zip
-!code-copy-block.zip
+!/blocks/copyright-date-block/copyright-date-block.zip
+!/blocks/code-copy-block/code-copy-block.zip
 !wordpress-blocks-plugin.zip
 
 # dotenv environment variables file
