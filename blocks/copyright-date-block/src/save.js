@@ -1,21 +1,19 @@
 import { useBlockProps } from '@wordpress/block-editor';
 
-export default function save( { attributes } ) {
+export default function save({ attributes }) {
     const { fallbackCurrentYear, showStartingYear, startingYear } = attributes;
 
-    if ( ! fallbackCurrentYear ) {
+    if (!fallbackCurrentYear) {
         return null;
     }
 
     let displayDate;
 
-    if ( showStartingYear && startingYear ) {
+    if (showStartingYear && startingYear) {
         displayDate = startingYear + '–' + fallbackCurrentYear;
     } else {
         displayDate = fallbackCurrentYear;
     }
 
-    return (
-        <p { ...useBlockProps.save() }>© { displayDate }</p>
-    );
+    return <p {...useBlockProps.save()}>© {displayDate}</p>;
 }

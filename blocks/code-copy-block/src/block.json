@@ -1,0 +1,23 @@
+{
+    "$schema": "https://schemas.wp.org/trunk/block.json",
+    "apiVersion": 3,
+    "name": "create-block/code-copy-block",
+    "version": "0.1.0",
+    "title": "Code Copy Block",
+    "category": "widgets",
+    "description": "A block to copy code snippets.",
+    "example": {},
+    "attributes": {
+        "content": {
+            "type": "string",
+            "source": "html",
+            "selector": "code"
+        }
+    },
+    "supports": {
+        "html": false
+    },
+    "textdomain": "code-copy-block",
+    "editorScript": "file:./index.js",
+    "render": "file:./render.php"
+}
