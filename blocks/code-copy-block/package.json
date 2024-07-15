@@ -1,0 +1,20 @@
+{
+    "name": "code-copy-block",
+    "version": "0.1.0",
+    "description": "A block that displays a code snippet with a copy button.",
+    "main": "index.js",
+    "scripts": {
+        "build": "wp-scripts build",
+        "start": "wp-scripts start"
+    },
+    "keywords": [
+        "wordpress",
+        "block",
+        "gutenberg"
+    ],
+    "author": "Your Name",
+    "license": "GPL-2.0-or-later",
+    "devDependencies": {
+        "@wordpress/scripts": "^23.0.0"
+    }
+}
