@@ -1,4 +1,4 @@
-=== Copyright Date Block ===
+=== Code Copy Block ===
 Contributors:      amans
 Tags:              block
 Tested up to:      6.1
